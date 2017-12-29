@@ -5,7 +5,7 @@
 1. Create new class extends from `go1\command\Command`
 
 ```php
-namespace dev;
+namespace devel;
 
 use go1\command\Command;
 
@@ -48,7 +48,7 @@ Note: CommandBus auto maps your command & handler. Following naming pattern, if 
 1. Create new class extends from `go1\command\Command`
  
  ```php
- namespace dev;
+ namespace devel;
  
  use go1\command\Command;
  
@@ -62,7 +62,7 @@ Note: CommandBus auto maps your command & handler. Following naming pattern, if 
 2. Create new class implements from `go1\command\CommandHandlerInterface`
  
  ```php
-  namespace dev;
+  namespace devel;
   
   use go1\command\CommandHandlerInterface;
   
@@ -105,7 +105,7 @@ $commandBus->execute($commandFoo);
 1. Create new class implements from `go1\command\CommandMiddlewareInterface`
 
 ```php
-namespace dev;
+namespace devel;
   
 use go1\command\CommandMiddlewareInterface;
 
