@@ -1,0 +1,11 @@
+language: php
+php:
+- 7.2
+matrix:
+  fast_finish: true
+before_script: composer install --prefer-source
+script: phpunit
+notifications:
+  hipchat:
+    rooms:
+      secure: FFhdTUcQRVEwX2Z+9P5c5SQCt3V/ZBzRxevYNz54uAgLqKZ4I8zGhd0h4SXFFOuKW2bZ/Rl3JcyAjpAOTApAZk2+0+N2tIN1grrEzK4s0uNGexciih0JYI1iAtrHEKprzB3TlgpIPr2hM1H3bGcIvKftFVujoGyI/fLwdIHqlxux9jYgdvGfplr8hT4bMTOBDgotpZLB6y8EpW3ilZM0qhfgRPVV+LYb2dow49b1lHXayXRPDK4y+DdUH0jOnuYF9Qe+ZS6MhxGrTPMcZhDTTwEenh7E4tTe77cbT6VrdU6Jo4llftaHlW/bSV7MwO2xQvoGgzetyOm2UvVLoXJubjLpU35TxWvG7iz1+O0Ybb3kXMl/htkrmm4JwoRM8sTiAg8xi1igirn7eAy548qRmdcJi5wEQ1UtoKuEm81WBi4xjQKnDQ09ySkcXslv48HZSvTmqhzHk08MFAqJPGKYNCEavO4ig4VgbFW1UTMeBddVy1jvbE7SZUb8uYxBXaeV5j3/5y/s2t9eUuOYze1OYOVMPmA5Gp/Ut4OXw1F5/gQh8bEGuSkCEp0pSkchy0QXvnnoCd+rHTnMD6TdIW7TmMq6kgWgVfvWEwumxbsUpLxlHCQ/vVTIFLOprgmSrSw+shtnOC+zCkAaSXScajLfNkLKYqYFWnS5HKBPm2KmUOY=

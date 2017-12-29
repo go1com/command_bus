@@ -1,0 +1,16 @@
+{
+    "name": "go1/command_bus",
+    "license": "proprietary",
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "go1\\command\\": "./"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+    }
+}
