@@ -1,6 +1,6 @@
 {
     "name": "go1/command_bus",
-    "license": "proprietary",
+    "license": "MIT",
     "prefer-stable": true,
     "minimum-stability": "stable",
     "autoload": {
